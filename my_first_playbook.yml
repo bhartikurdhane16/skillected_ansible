@@ -1,8 +1,8 @@
----                 #playbook starts
-- name: My first playbook        #playbook name
-  hosts: all                     # target nodes/hosts
-  tasks:                         # task to be perform 
-    - name: writing my first playbook       #task name
-      debug:                                   #module debug
+---                
+- name: My first playbook        
+  hosts: all                    
+  tasks:                         
+    - name: writing my first playbook      
+      debug:                                  
         msg: "Hello, this is a message displayed my first playbook is running!”    
 ...                               
