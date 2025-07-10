@@ -11,7 +11,7 @@
         name: nginx
         state: present
     - name: ensure service started
-       service: 
+      service: 
          name: nginx
          state: started
          enabled: yes
