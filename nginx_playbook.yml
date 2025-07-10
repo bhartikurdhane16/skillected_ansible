@@ -11,4 +11,4 @@
         name: nginx
         state: present
     - name: start nginx service
-...   service:
+
