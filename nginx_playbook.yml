@@ -8,5 +8,6 @@
         update_catche: yes
     - name: install nginx
       apt: 
+        name: nginx
 
 ...  
