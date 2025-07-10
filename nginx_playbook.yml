@@ -6,6 +6,7 @@
     - name: update catche      
       apt:                                  
         update_catche: yes
-    
+    - name: install nginx
+      apt: 
 
 ...  
