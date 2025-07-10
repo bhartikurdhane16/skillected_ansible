@@ -3,7 +3,7 @@
   hosts: all
   become: yes       #provide root user permission to local user                    
   tasks:                         
-    - name: update c      
-      debug:                                  
+    - name: update catche      
+      :                                  
         msg: Hello, this is a message displayed my first playbook is running!  
 ...  
