@@ -1,7 +1,7 @@
 ---                
 - name: nginx installation playbook        
   hosts: all
-  become: yes       #provide p                    
+  become: yes       #provide root user permission to local user                    
   tasks:                         
     - name: writing my first playbook      
       debug:                                  
