@@ -5,5 +5,5 @@
   tasks:                         
     - name: update catche      
       apt:                                  
-        update_catche:  
+        update_catche: yes 
 ...  
