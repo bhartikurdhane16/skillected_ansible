@@ -1,6 +1,7 @@
 ---                
 - name: nginx installation playbook        
-  hosts: all                    
+  hosts: all
+                      
   tasks:                         
     - name: writing my first playbook      
       debug:                                  
