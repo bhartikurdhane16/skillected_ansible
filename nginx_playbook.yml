@@ -1,7 +1,7 @@
 ---                
 - name: nginx installation playbook        
   hosts: all
-  become                    
+  become: yes       #                    
   tasks:                         
     - name: writing my first playbook      
       debug:                                  
