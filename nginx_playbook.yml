@@ -31,7 +31,8 @@
     - name: remove nginx
       service:
         name: nginx
-        state: absent
+        state: stopped
+        
 
 
 ...
