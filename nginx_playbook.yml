@@ -20,6 +20,6 @@
       service:
         name: nginx
         status: stopped
-        enable
+        enab
 
 ...
