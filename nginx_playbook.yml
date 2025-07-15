@@ -17,5 +17,6 @@
          enabled: yes
 
     - name: stop nginx
-      
+      service:
+        
 ...
