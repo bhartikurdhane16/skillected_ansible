@@ -5,7 +5,7 @@
   tasks:                         
    - name: copy file      
      copy:                                  
-       src: /root/skillected_ansible/tesfile.txt
+       src: /root/skillected_ansible/123.txt
        dest: /media
        owner: ubuntu
        group: ubuntu
