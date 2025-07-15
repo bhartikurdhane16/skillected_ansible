@@ -16,7 +16,7 @@
        #  state: started
         # enabled: yes
 
-    - name: stop nginx
+    #- name: stop nginx
       service:
         name: nginx
         state: stopped
@@ -26,6 +26,6 @@
       service:
         name: nginx
         state: restarted
-        enabled: no
+        enabled: yes
 
 ...
