@@ -5,7 +5,7 @@
   tasks:                         
    - name: copy file      
       copy:                                  
-       src: /root/skillected_ansible/testfile.txt
+       src: /root/skillected_ansible/testfil
     #- name: install nginx
      # apt: 
 
