@@ -11,6 +11,6 @@
        group: ubuntu
        mode: '666'
        backup: yes
-     when: file_check.stat.exists
+     
        
 ...
