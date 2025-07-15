@@ -6,12 +6,12 @@
    # - name: update cache      
     #  apt:                                  
      #  update_cache: yes
-    - name: install nginx
-      apt: 
-        name: nginx
-        state: present
-    - name: ensure service started
-      service: 
+    #- name: install nginx
+     # apt: 
+      #  name: nginx
+       # state: present
+    #- name: ensure service started
+     # service: 
          name: nginx
          state: started
          enabled: yes
