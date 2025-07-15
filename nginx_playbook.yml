@@ -33,7 +33,7 @@
         name: nginx
         state: stopped
 
-        # apt remove nginx  ----
+        
 
 
 ...
