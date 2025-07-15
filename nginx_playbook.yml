@@ -19,5 +19,6 @@
     - name: stop nginx
       service:
         name: nginx
-        
+        status: 
+
 ...
