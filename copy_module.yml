@@ -9,6 +9,6 @@
        dest: /media
        owner: ubuntu
        group: ubuntu
-       mode: u+rw,o-w
+       mode: u+rw,g-w,o-w
        #backup: true
 ...
