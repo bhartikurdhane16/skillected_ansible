@@ -10,7 +10,7 @@
        owner: ubuntu
        group: ubuntu
        mode: '644'
-       backup: yes  # take backup of previous content, befoure making Our file don’t have content, if we put content in the file then while executing same playbook again, system will take backup of previous file at same destination path on host where original file can be created. 
+       backup: yes  # take backup of previous content, befoure changing file.Our file don’t have content, if we put content in the file then while executing same playbook again, system will take backup of previous file at same destination path on host where original file can be created. 
      
        
 ...
