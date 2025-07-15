@@ -8,5 +8,5 @@
        src: /root/skillected_ansible/tesfile.txt
        dest: /media
        owner: ubuntu
-       
+       group: ubuntu
 ...
