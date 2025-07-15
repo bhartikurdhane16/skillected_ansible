@@ -9,6 +9,6 @@
        dest: /media
        owner: ubuntu
        group: ubuntu
-       mode: 0744
+       mode: 
        backup: true
 ...
