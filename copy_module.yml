@@ -1,5 +1,5 @@
 ---                
-- name: nginx installation playbook        
+- name: copy file      
   hosts: all
   become: yes       #provide root user permission to local user                    
   tasks:                         
