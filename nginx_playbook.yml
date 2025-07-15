@@ -22,5 +22,10 @@
         state: stopped
         enabled: no
         
+    - name: stop nginx
+      service:
+        name: nginx
+        state: stopped
+        enabled: no
 
 ...
