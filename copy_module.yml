@@ -9,5 +9,5 @@
        dest: /media
        owner: ubuntu
        group: ubuntu
-       
+       mode: 666
 ...
