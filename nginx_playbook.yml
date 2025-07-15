@@ -29,7 +29,7 @@
         #enabled: yes
     
     - name: remove nginx
-      service:
+      apt:
         name: nginx
         state: stopped
 
