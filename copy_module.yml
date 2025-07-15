@@ -4,7 +4,7 @@
   become: yes       #provide root user permission to local user                    
   tasks:                         
    - name: copy file      
-    #  apt:                                  
+      copy:                                  
      #  update_cache: yes
     #- name: install nginx
      # apt: 
