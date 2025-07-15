@@ -31,7 +31,7 @@
     - name: remove nginx
       apt:
         name: nginx
-        state: stopped
+        state: absent
 
         
 
