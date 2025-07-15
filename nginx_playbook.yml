@@ -19,7 +19,7 @@
     - name: stop nginx
       service:
         name: nginx
-        status: stopped
+        state: stopped
         enabled: no
 
 ...
