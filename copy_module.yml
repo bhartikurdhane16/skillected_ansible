@@ -11,6 +11,6 @@
        group: ubuntu
        mode: '644'
        backup: yes
-      when: file_check.stat.exists
+     when: file_check.stat.exists
        
 ...
