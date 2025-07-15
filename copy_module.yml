@@ -10,7 +10,7 @@
        owner: ubuntu
        group: ubuntu
        mode: '666'
-       backup: true
+       backup: yes
      
        
 ...
