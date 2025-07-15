@@ -10,5 +10,5 @@
        owner: ubuntu
        group: ubuntu
        mode: 766
-       backup
+       backup: true
 ...
