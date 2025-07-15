@@ -21,11 +21,11 @@
         name: nginx
         state: stopped
         enabled: no
-        
-    - name: stop nginx
+
+    - name: restart nginx
       service:
         name: nginx
-        state: stopped
+        state: 
         enabled: no
 
 ...
