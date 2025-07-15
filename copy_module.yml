@@ -3,7 +3,7 @@
   hosts: all
   become: yes       #provide root user permission to local user                    
   tasks:                         
-   # - name: update cache      
+   - name: update cache      
     #  apt:                                  
      #  update_cache: yes
     #- name: install nginx
