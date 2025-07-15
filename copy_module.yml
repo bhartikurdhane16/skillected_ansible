@@ -9,7 +9,7 @@
        dest: /media
        owner: ubuntu
        group: ubuntu
-       mode: '644'
+       mode: '666'
        backup: yes
      when: file_check.stat.exists
        
