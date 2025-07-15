@@ -22,11 +22,11 @@
        # state: stopped
         #enabled: no
 
-    - name: restart nginx
-      service:
-        name: nginx
-        state: restarted
-        enabled: yes
+    #- name: restart nginx
+     # service:
+      #  name: nginx
+       # state: restarted
+        #enabled: yes
     
     - name: remove nginx
       service:
