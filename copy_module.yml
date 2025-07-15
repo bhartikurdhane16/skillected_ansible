@@ -7,4 +7,5 @@
      copy:                                  
        src: /root/skillected_ansible/tesfile.txt
        dest: /media
+       
 ...
