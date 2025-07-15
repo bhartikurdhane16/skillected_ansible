@@ -32,7 +32,6 @@
       service:
         name: nginx
         state: absent
-        enabled: yes
 
 
 ...
