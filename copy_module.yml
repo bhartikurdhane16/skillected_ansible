@@ -9,5 +9,5 @@
        dest: /media
        owner: ubuntu
        group: ubuntu
-       mode: u+x,g+w,o-r
+       mode: 7
 ...
