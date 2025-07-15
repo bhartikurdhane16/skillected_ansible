@@ -10,5 +10,5 @@
        owner: ubuntu
        group: ubuntu
        mode: u+rw,g-x,o+w
-       backup: true
+       #backup: true
 ...
