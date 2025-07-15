@@ -4,7 +4,7 @@
   become: yes       #provide root user permission to local user                    
   tasks:                         
    - name: copy file      
-      copy:                                  
+     copy:                                  
        src: /root/skillected_ansible/tesfile.txt
        dest: /media
 ...
