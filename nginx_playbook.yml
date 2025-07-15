@@ -17,10 +17,10 @@
         # enabled: yes
 
     #- name: stop nginx
-      service:
-        name: nginx
-        state: stopped
-        enabled: no
+     # service:
+      #  name: nginx
+       # state: stopped
+        #enabled: no
 
     - name: restart nginx
       service:
