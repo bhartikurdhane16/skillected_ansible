@@ -5,7 +5,7 @@
   tasks:                         
    - name: copy file      
       copy:                                  
-     #  update_cache: yes
+       update_cache: yes
     #- name: install nginx
      # apt: 
 
