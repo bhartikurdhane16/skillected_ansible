@@ -24,7 +24,7 @@
       #group:
         #name: evc
         #state: present
-    - name: Create user 'chetan' with specific shell
+    #- name: Create user 'chetan' with specific shell
       #user:
         #name: chetan
         #comment: "Creating chetan user"
