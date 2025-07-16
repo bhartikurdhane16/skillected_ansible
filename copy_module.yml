@@ -1,14 +1,14 @@
-#---                
-#- name: copy file from matser to hosts     
-  #hosts: all
-  #become: yes       #provide root user permission to local user                    
-  #tasks:                         
-   #- name: copy file      
-     #copy:                                  
-       #src: /root/skillected_ansible/123.txt
-       #dest: /media
-       #owner: ubuntu
-       #group: ubuntu
-       #mode: '644'
-      backup: yes  # take backup of previous content, at same destination path. 
+---                
+- name: copy file from matser to hosts     
+  hosts: all
+  become: yes       #provide root user permission to local user                    
+  tasks:                         
+   - name: copy file      
+     copy:                                  
+       src: /root/skillected_ansible/123.txt
+       dest: /media
+       owner: ubuntu
+       group: ubuntu
+       mode: '644'
+       backup: yes  # take backup of previous content, at same destination path. 
 ...
