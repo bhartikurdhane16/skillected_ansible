@@ -26,9 +26,9 @@
         #state: present
     - name: Create user 'chetan' with specific shell
       #user:
-        name: chetan
-        comment: "Creating chetan user"
-        shell: /bin/bash
+        #name: chetan
+        #comment: "Creating chetan user"
+        #shell: /bin/bash
         # home: /custom/home/chetan    # Uncomment to specify a custom home directory
         #group: evc                   # Primary group ownership
         # groups: anant,tata          # Secondary (supplementary) groups
