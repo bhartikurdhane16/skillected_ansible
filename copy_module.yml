@@ -20,16 +20,13 @@
   become: yes
 
   tasks:
-    - name: Create group 'evc'
-      group:
-        name: evc
-        state: absent
+    
     - name: Create user 'chetan' with specific shell
       user:
         name: chetan
         comment: "Creating chetan user"
         shell: /bin/bash
-         home: /custom/home/chetan    # Uncomment to specify a custom home directory
+        home: /custom/home/chetan    # Uncomment to specify a custom home directory
         group: evc                   # Primary group ownership
         # groups: anant,tata          # Secondary (supplementary) groups
         #state: present              # Optional: ensures user exists (default)
