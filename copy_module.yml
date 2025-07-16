@@ -33,8 +33,8 @@
         #group: evc                   # Primary group ownership
         # groups: anant,tata          # Secondary (supplementary) groups
         #state: present              # Optional: ensures user exists (default)
-        #state: absent               # Uncomment to delete the user
-        #remove: yes                 # When deleting, remove user's home directory and mail spool
+        state: absent               # Uncomment to delete the user
+        remove: yes                 # When deleting, remove user's home directory and mail spool
     - name: Set password for user 'chetan'
       user:
         name: chetan
