@@ -21,5 +21,20 @@
 
   tasks:
     
-    
+   - name: ensure firewalld is installed
+     package: 
+       name: firewalld
+       state: present
+
+   - name: enable firewalld
+     firewalld:
+      #service: nginx
+      port: 80/tcp
+      permanent: true
+      state: enabled
+
+   - name: reload firewalld
+     service: 
+      name: firewalld
+      state: reloaded
 ...
