@@ -3,9 +3,9 @@
   hosts: all
   become: yes       #provide root user permission to local user                    
   tasks:                         
-   - name: copy file      
-     copy:                                  
-       src: /root/skillected_ansible/123.txt
+   #- name: copy file      
+     #copy:                                  
+       #src: /root/skillected_ansible/123.txt
        #dest: /media
        #owner: ubuntu
        #group: ubuntu
