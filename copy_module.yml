@@ -30,9 +30,9 @@
         comment: "Creating chetan user"
         shell: /bin/bash
         # home: /custom/home/chetan    # Uncomment to specify a custom home directory
-        group: evc                   # Primary group
+        #group: evc                   # Primary group
         # groups: anant,tata          # Secondary (supplementary) groups
-        state: present              # Optional: ensures user exists (default)
+        #state: present              # Optional: ensures user exists (default)
         #state: absent               # Uncomment to delete the user
         #remove: yes                 # When deleting, remove user's home directory and mail spool
        
