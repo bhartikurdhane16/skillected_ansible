@@ -20,7 +20,6 @@
   become: yes
 
   tasks:
-    tasks:
     - name: Create group 'evc'
       group:
         name: evc
