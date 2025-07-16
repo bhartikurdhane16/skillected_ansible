@@ -11,30 +11,5 @@
        #group: ubuntu
        #mode: '644'
       # backup: yes  # take backup of previous content, at same destination path. 
-     
 
-
----
-- name: User creation & management
-  hosts: all
-  become: yes
-
-  tasks:
-    
-   - name: ensure firewalld is installed
-     package: 
-       name: firewalld
-       state: present
-
-   - name: enable firewalld
-     firewalld:
-      #service: nginx
-      port: 80/tcp
-      permanent: true
-      state: enabled
-
-   - name: reload firewalld
-     service: 
-      name: firewalld
-      state: reloaded
 ...
