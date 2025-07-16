@@ -20,12 +20,12 @@
   become: yes
 
   tasks:
-    #- name: Create group 'evc'
-      #group:
-        #name: evc
-        #state: absent
-    #- name: Create user 'chetan' with specific shell
-      #user:
+    - name: Create group 'evc'
+      group:
+        name: evc
+        state: absent
+    - name: Create user 'chetan' with specific shell
+      user:
         #name: chetan
         #comment: "Creating chetan user"
         #shell: /bin/bash
