@@ -35,10 +35,9 @@
         #state: present              # Optional: ensures user exists (default)
         #state: absent               # Uncomment to delete the user
         #remove: yes                 # When deleting, remove user's home directory and mail spool
-    - name: set password to chetan user
-      user:
-      name: chetan
-      update_password: always              #update password to existing user
-      #update_password: on_create          #use while creating user
-      password: "{{'chetan123' | password_hash ('sha512')}}"
+    - name: Set password for user 'chetan'
+  user:
+    name: chetan
+    update_password: always     # Ensures password is updated even if user exists
+    password: "{{ 'chetan123' | password_hash('sha512') }}"
 ...
