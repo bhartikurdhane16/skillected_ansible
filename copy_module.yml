@@ -19,11 +19,11 @@
   hosts: all
   become: yes
 
-  #tasks:
+  tasks:
     #- name: Create group 'evc'
       #group:
-        name: evc
-        state: present
+        #name: evc
+        #state: present
     - name: Create user 'chetan' with specific shell
       user:
         name: chetan
