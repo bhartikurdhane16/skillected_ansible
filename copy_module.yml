@@ -10,6 +10,5 @@
        #owner: ubuntu
        #group: ubuntu
        #mode: '644'
-      # backup: yes  # take backup of previous content, at same destination path. 
-
+      backup: yes  # take backup of previous content, at same destination path. 
 ...
