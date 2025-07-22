@@ -9,12 +9,12 @@
   tasks:
     - name: Install Apache package
       apt:
-        name: "{{ apache_package }}"
-        state: present
-        update_cache: yes
+       # name: "{{ apache_package }}"
+      #  state: present
+     #   update_cache: yes
 
-    - name: Ensure Apache service is running
-      service:
+    #- name: Ensure Apache service is running
+      #service:
        # name: "{{ apache_service }}"
       #  state: started
      #   enabled: true
