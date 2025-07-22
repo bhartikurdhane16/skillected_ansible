@@ -1,3 +1,4 @@
+---
 - name: Install Apache(httpd service) on host
   hosts: all
   become: yes
