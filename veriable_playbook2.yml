@@ -1,6 +1,6 @@
-- name: Playbook to create file with 
+- name: Playbook to create file with custome content.
   hosts: all
-  become: true
+  become: yes
 
   vars:
     file_path: /tmp/hello.txt
