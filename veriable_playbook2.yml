@@ -3,7 +3,7 @@
   become: yes
 
   vars:
-    file_path: /tmp/hello.txt
+    file_path: /media/hello.txt
     file_content: "Hello world!"
 
   tasks:
