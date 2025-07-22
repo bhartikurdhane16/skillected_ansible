@@ -1,8 +1,0 @@
-- name: CLI variable demo
-  hosts: all
-  become: yes
-
-  tasks:
-    - name: Show application port
-      debug:
-        msg: "The application is running on port {{ app_port }}"
