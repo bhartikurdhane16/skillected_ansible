@@ -16,7 +16,7 @@
 
     - name: Ensure Apache service is running
       service:   #module
-        name: "{{ apache_service }}"
+        name: "{{ apache_service }}"    #calling veriable 
         state: started
         enabled: true
      
