@@ -8,9 +8,9 @@
     apache_service: apache2
 
   tasks:
-    - name: Install Apache package
-      apt:     #package module
-       name: "{{ apache_package }}"     #calling veriable apacke_package
+   # - name: Install Apache package
+    #  apt:     #package module
+     #  name: "{{ apache_package }}"     #calling veriable apacke_package
        state: present
        update_cache: yes
 
@@ -22,5 +22,5 @@
      
     - name: Stop Apache2 service
       service:
-      #  name: "{{ apache_service }}"
-       # state: stopped
+        name: "{{ apache_service }}"
+        state: stopped
