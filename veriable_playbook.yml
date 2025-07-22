@@ -23,4 +23,4 @@
     #- name: Stop Apache2 service
      # service:       
       #  name: "{{ apache_service }}"
-        state: stopped
+       # state: stopped
