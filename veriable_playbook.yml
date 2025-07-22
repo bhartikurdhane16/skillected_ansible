@@ -3,8 +3,8 @@
   become: yes
 
   vars:
-    apache_package: apache
-    apache_service: apache
+    apache_package: apache2
+    apache_service: apache2
 
   tasks:
     - name: Install Apache package
