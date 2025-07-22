@@ -20,7 +20,7 @@
        # state: started
         #enabled: true 
      
-    - name: Stop Apache2 service
-      service:       
-        name: "{{ apache_service }}"
+    #- name: Stop Apache2 service
+     # service:       
+      #  name: "{{ apache_service }}"
         state: stopped
