@@ -1,3 +1,4 @@
+---
 - name: Playbook to create file with custome content.
   hosts: all
   become: yes
@@ -14,3 +15,4 @@
         owner: root
         group: root
         mode: '0644'
+        
