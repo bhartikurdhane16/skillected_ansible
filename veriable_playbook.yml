@@ -9,10 +9,10 @@
 
   tasks:
     - name: Install Apache package
-      apt:
+      apt:     #
        name: "{{ apache_package }}"
-      #  state: present
-     #   update_cache: yes
+       state: present
+       update_cache: yes
 
     #- name: Ensure Apache service is running
       #service:
