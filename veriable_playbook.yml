@@ -1,0 +1,20 @@
+- name: Install Apache on host
+  hosts: all
+  become: true
+
+  vars:
+    apache_package: apache2
+    apache_service: apache2
+
+  tasks:
+    - name: Install Apache package
+      apt:
+        name: "{{ apache_package }}"
+        state: present
+        update_cache: yes
+
+    - name: Ensure Apache service is running
+      service:
+        name: "{{ apache_service }}"
+        state: started
+        enabled: true
