@@ -4,7 +4,7 @@
 
   vars:
     file_path: /tmp/hello.txt
-    file_content: "Hello from Ansible!"
+    file_content: "Hello world!"
 
   tasks:
     - name: Create a file with custom content
