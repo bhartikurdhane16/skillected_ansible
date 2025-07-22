@@ -1,4 +1,4 @@
-- name: Install Apache on host
+- name: Install Apache(httpd) on host
   hosts: all
   become: yes
 
