@@ -10,7 +10,7 @@
   tasks:
     - name: Create a file with custom content
       copy:    #module
-        dest: "{{ file_path }}"
+        dest: "{{ file_path }}"    #calling veriable
         content: "{{ file_content }}"
         owner: root
         group: root
