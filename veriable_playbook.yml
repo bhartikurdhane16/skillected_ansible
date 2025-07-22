@@ -10,7 +10,7 @@
   tasks:
     - name: Install Apache package
       apt:     #package module
-       name: "{{ apache_package }}"     #calling veriable
+       name: "{{ apache_package }}"     #calling veriable apacke_package
        state: present
        update_cache: yes
 
