@@ -9,7 +9,7 @@
 
   tasks:
     - name: Install Apache package
-      apt:     #
+      apt:     #package module
        name: "{{ apache_package }}"
        state: present
        update_cache: yes
