@@ -1,0 +1,16 @@
+- name: Simple playbook using variables
+  hosts: all
+  become: true
+
+  vars:
+    file_path: /tmp/hello.txt
+    file_content: "Hello from Ansible!"
+
+  tasks:
+    - name: Create a file with custom content
+      copy:
+        dest: "{{ file_path }}"
+        content: "{{ file_content }}"
+        owner: root
+        group: root
+        mode: '0644'
