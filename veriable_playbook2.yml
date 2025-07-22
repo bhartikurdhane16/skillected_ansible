@@ -4,7 +4,7 @@
   become: yes
 
   vars:
-    file_path: /media/testvar.txt
+    file_path: /mnt/testvar.txt
     file_content: "Hello world!"
 
   tasks:
