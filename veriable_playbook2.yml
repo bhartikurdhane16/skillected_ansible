@@ -1,4 +1,4 @@
-- name: Simple playbook using variables
+- name: Playbook using variables
   hosts: all
   become: true
 
