@@ -15,10 +15,10 @@
 
     - name: Ensure Apache service is running
       service:
-        name: "{{ apache_service }}"
-        state: started
-        enabled: true
+       # name: "{{ apache_service }}"
+      #  state: started
+     #   enabled: true
     - name: Stop Apache2 service
       service:
         name: "{{ apache_service }}"
-       # state: stopped
+        state: stopped
