@@ -18,7 +18,7 @@
       service:   #module
         name: "{{ apache_service }}"    #calling veriable apache_Service
         state: started
-        enabled: true
+        enabled: true 
      
     #- name: Stop Apache2 service
      # service:
