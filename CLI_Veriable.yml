@@ -1,6 +1,6 @@
 - name: CLI variable demo
   hosts: all
-  gather_facts: false
+  become: yes
 
   tasks:
     - name: Show application port
