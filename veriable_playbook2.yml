@@ -9,7 +9,7 @@
 
   tasks:
     - name: Create a file with custom content
-      copy:
+      copy:    #
         dest: "{{ file_path }}"
         content: "{{ file_content }}"
         owner: root
