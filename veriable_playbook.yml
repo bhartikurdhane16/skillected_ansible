@@ -14,9 +14,9 @@
        state: present
        update_cache: yes
 
-    #- name: Ensure Apache service is running
-      #service:
-       # name: "{{ apache_service }}"
+    - name: Ensure Apache service is running
+      service:
+        name: "{{ apache_service }}"
       #  state: started
      #   enabled: true
      
