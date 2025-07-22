@@ -3,8 +3,8 @@
   become: yes
 
   vars:
-    apache_package: nginx
-    apache_service: nginx
+    apache_package: apache
+    apache_service: apache
 
   tasks:
     - name: Install Apache package
