@@ -33,7 +33,7 @@
     - name: Deploy NGINX config    #to define application behaour,ie security rules, resources configuration, customization, ssh , control behaviour.
       copy:
         src: nginx.conf   #Ansible to copy a file from the control server to the managed host
-        dest: /etc/nginx/nginx.conf
+        dest: /etc/nginx/nginx.conf   #Destination path
       notify: Restart NGINX
 
   handlers:
