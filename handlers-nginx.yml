@@ -10,7 +10,7 @@
         state: present
       notify: Restart NGINX   #once nginx installed,notifies to  handler to restart the service
 
-    - name: Install Firewalld
+    - name: Install Firewalld   #demon serv
       apt:
         name: firewalld
         state: present
