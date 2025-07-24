@@ -21,7 +21,7 @@
         name: apache2
         state: stopped
         enabled: false    
-     - name: Remove Apache2 package
+    - name: Remove Apache2 package
       apt:
         name: apache2
         state: absent
