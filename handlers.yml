@@ -18,12 +18,12 @@
 
     - name: Stop apache2 and disable it on boot
       service:
-        name: apache2
-        state: stopped
-        enabled: false    
-    - name: Remove Apache2 package
-      apt:
-        name: apache2
+#        name: apache2
+#        state: stopped
+#        enabled: false    
+#    - name: Remove Apache2 package
+#      apt:
+#        name: apache2
 #        state: absent
 #        purge: yes       # Optional: also removes config files
 
