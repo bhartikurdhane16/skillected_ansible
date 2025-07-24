@@ -28,7 +28,7 @@
         permanent: true
         state: enabled
         immediate: yes
-      notify: Reload Firewalld
+      notify: Reload Firewalld    
 
     - name: Deploy NGINX config
       copy:
