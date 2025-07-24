@@ -16,6 +16,12 @@
         state: started
         enabled: true
 
+    - name: Stop apache2 and disable it on boot
+      service:
+        name: apache2
+        state: stopped
+        enabled: false    
+
   handlers:
     - name: Restart Apache
       service:
