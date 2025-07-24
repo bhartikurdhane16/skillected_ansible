@@ -36,6 +36,7 @@
         dest: /etc/nginx/nginx.conf   #Destination path on hosts
       notify: Restart NGINX
 
+ ##Stop 
    # - name: Stop NGINX service
     #  service:
      #   name: nginx
