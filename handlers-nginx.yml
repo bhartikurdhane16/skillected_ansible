@@ -1,6 +1,6 @@
 ---
 - name: Install and configure NGINX with Firewalld
-  hosts: webservers
+  hosts: all
   become: yes
 
   tasks:
