@@ -1,6 +1,6 @@
 ---
 - name: Deploy NGINX with dynamic config
-  hosts: webservers
+  hosts: all
   become: yes
   vars:
     server_name: example.com
