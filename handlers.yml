@@ -11,10 +11,10 @@
       notify: Restart Apache
 
     - name: Ensure Apache is started and enabled
-      service:
-        name: apache2
-        state: started
-        enabled: true
+#      service:
+#        name: apache2
+#        state: started
+#        enabled: true
 
     - name: Stop apache2 and disable it on boot
       service:
