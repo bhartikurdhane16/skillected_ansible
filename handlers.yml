@@ -1,6 +1,6 @@
 ---
 - name: Install and configure Apache
-  hosts: webservers
+  hosts: all
   become: yes
 
   tasks:
