@@ -23,7 +23,7 @@
         enabled: true
 
     - name: Open HTTP port in Firewalld  #Opens port 80 (HTTP) in the firewall permanently and immediately.
-      firewalld:
+      firewalld:     #module 
         port: 80/tcp
         permanent: true
         state: enabled
