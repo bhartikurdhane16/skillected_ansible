@@ -1,5 +1,5 @@
 ---
-- name: Install and configure Apache
+- name: Install Apache2
   hosts: all
   become: yes
 
