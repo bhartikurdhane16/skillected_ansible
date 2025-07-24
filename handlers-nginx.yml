@@ -49,7 +49,7 @@
        # enabled: false
 
   handlers:
-    - name: Restart NGINX                
+    - name: Restart NGINX                #nginx
       service:
         name: nginx
         state: restarted
