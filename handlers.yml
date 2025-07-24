@@ -22,9 +22,9 @@
         state: stopped
         enabled: false    
 
-  handlers:
-    - name: Restart Apache
-      service:
-        name: apache2
-        state: restarted
+#  handlers:
+#    - name: Restart Apache
+#      service:
+#        name: apache2
+#        state: restarted
 ...
