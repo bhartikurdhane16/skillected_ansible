@@ -27,7 +27,7 @@
         port: 80/tcp
         permanent: true
         state: enabled
-        immediate: yes
+        immediate: yes 
       notify: Reload Firewalld    
 
     - name: Ensure NGINX is started and enabled
