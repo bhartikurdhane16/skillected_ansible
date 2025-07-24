@@ -3,7 +3,7 @@
   hosts: all
   become: yes
   vars:
-    server_name: example.com
+    server_name: xyz.com
     document_root: /var/www/html
 
   tasks:
