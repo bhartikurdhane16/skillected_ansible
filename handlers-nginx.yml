@@ -30,7 +30,7 @@
         immediate: yes
       notify: Reload Firewalld    
 
-    - name: Deploy NGINX config
+    - name: Deploy NGINX config    #
       copy:
         src: nginx.conf
         dest: /etc/nginx/nginx.conf
