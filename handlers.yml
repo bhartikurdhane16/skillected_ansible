@@ -1,0 +1,24 @@
+---
+- name: Install and configure Apache
+  hosts: webservers
+  become: yes
+
+  tasks:
+    - name: Install Apache
+      apt:
+        name: apache2
+        state: present
+      notify: Restart Apache
+
+    - name: Copy Apache config
+      copy:
+        src: apache.conf
+        dest: /etc/apache2/apache2.conf
+      notify: Restart Apache
+
+  handlers:
+    - name: Restart Apache
+      service:
+        name: apache2
+        state: restarted
+...
