@@ -30,7 +30,7 @@
         immediate: yes
       notify: Reload Firewalld    
 
-    - name: Ensure Apache is started and enabled
+    - name: Ensure NGINX is started and enabled
       service:
         name: apache2
         state: started
