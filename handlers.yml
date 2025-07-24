@@ -4,11 +4,11 @@
   become: yes
 
   tasks:
-    - name: Install Apache
-      apt:
-        name: apache2
-        state: present
-      notify: Restart Apache   #once apache is instlled, notify handlers to restart the apache.
+ #   - name: Install Apache
+ #     apt:
+ #       name: apache2
+ #       state: present
+ #     notify: Restart Apache   #once apache is instlled, notify handlers to restart the apache.
 
  #   - name: Ensure Apache is started and enabled
  #     service:
