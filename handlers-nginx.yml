@@ -30,7 +30,7 @@
         immediate: yes
       notify: Reload Firewalld    
 
-    - name: Deploy NGINX config    #to define application behaour,
+    - name: Deploy NGINX config    #to define application behaour,ie secu
       copy:
         src: nginx.conf
         dest: /etc/nginx/nginx.conf
