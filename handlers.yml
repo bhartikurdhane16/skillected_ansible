@@ -21,7 +21,15 @@
         name: apache2
         state: stopped
         enabled: false    
-        
+     - name: Remove Apache2 package
+      apt:
+        name: apache2
+        state: absent
+        purge: yes       # Optional: also removes config files
+
+    - name: Auto-remove unused dependencies
+      apt:
+        autoremove: yes    
 
 #  handlers:
 #    - name: Restart Apache
