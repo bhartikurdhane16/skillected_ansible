@@ -31,9 +31,9 @@
       apt:
         autoremove: yes    
 
-  handlers:
-    - name: Restart Apache
-      service:
-        name: apache2
+#  handlers:
+#    - name: Restart Apache
+#      service:
+3        name: apache2
         state: restarted
 ...
