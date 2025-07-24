@@ -23,8 +23,8 @@
         enabled: false    
     - name: Remove Apache2 package
       apt:
-        name: apache2
-        state: absent
+#     name: apache2
+#      state: absent
  #       purge: yes       # Optional: also removes config files
 
 #    - name: Auto-remove unused dependencies
