@@ -17,7 +17,7 @@
  #       enabled: true
 
    - name: Stop apache2 and disable it on boot     #stop apache2
-      service:
+     service:
         name: apache2
         state: stopped
         enabled: false    
