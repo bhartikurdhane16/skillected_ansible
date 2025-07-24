@@ -8,7 +8,7 @@
       apt:
         name: nginx
         state: present
-      notify: Restart NGINX   #once nginx installed,notifies to  handler- Restart NGINX to restart the service
+      notify: Restart NGINX   #once nginx installed,notifies to  handler to restart the service
 
     - name: Install Firewalld
       apt:
