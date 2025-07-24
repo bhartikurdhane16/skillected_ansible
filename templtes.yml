@@ -1,0 +1,20 @@
+---
+- name: Deploy NGINX with dynamic config
+  hosts: webservers
+  become: yes
+  vars:
+    server_name: example.com
+    document_root: /var/www/html
+
+  tasks:
+    - name: Deploy nginx config from template
+      template:
+        src: nginx.conf.j2
+        dest: /etc/nginx/nginx.conf
+      notify: Restart NGINX
+
+  handlers:
+    - name: Restart NGINX
+      service:
+        name: nginx
+        state: restarted
