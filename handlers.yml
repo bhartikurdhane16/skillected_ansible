@@ -25,11 +25,11 @@
       apt:
         name: apache2
         state: absent
-        purge: yes       # Optional: also removes config files
+ #       purge: yes       # Optional: also removes config files
 
-    - name: Auto-remove unused dependencies
-      apt:
-        autoremove: yes    
+#    - name: Auto-remove unused dependencies
+#      apt:
+#        autoremove: yes    
 
  handlers:
     - name: Restart Apache
