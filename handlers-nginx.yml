@@ -59,7 +59,7 @@
         name: firewalld
         state: restarted
 
-    - name: Reload Firewalld   
+    - name: Reload Firewalld       
       service:
         name: firewalld
         state: reloaded
