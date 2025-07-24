@@ -8,7 +8,7 @@
       apt:
         name: apache2
         state: present
-      notify: Restart Apache   #
+      notify: Restart Apache   #once 
 
     - name: Ensure Apache is started and enabled
       service:
