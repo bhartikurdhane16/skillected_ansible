@@ -15,7 +15,7 @@
         name: apache2
         state: started
         enabled: true
-        
+
 #    - name: Stop apache2 and disable it on boot     #stop apache2
 #      service:
 #        name: apache2
@@ -31,7 +31,7 @@
 #      apt:
 #        autoremove: yes    
 
- handlers:
+  handlers:
     - name: Restart Apache
       service:
         name: apache2
