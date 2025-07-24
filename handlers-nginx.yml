@@ -32,7 +32,7 @@
 
     - name: Ensure NGINX is started and enabled
       service:
-        name: apache2
+        name: NGINX
         state: started
         enabled: true
 
