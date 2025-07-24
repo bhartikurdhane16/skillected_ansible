@@ -41,6 +41,11 @@
         name: nginx
         state: stopped
         enabled: false
+    - name: Stop Firewalld service
+      service:
+        name: firewalld
+        state: stopped
+        enabled: false
 
   handlers:
     - name: Restart NGINX
