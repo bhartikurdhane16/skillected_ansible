@@ -32,7 +32,7 @@
 
     - name: Ensure NGINX is started and enabled
       service:
-        name: NGINX
+        name: nginx
         state: started
         enabled: true
 
