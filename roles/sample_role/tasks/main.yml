@@ -2,7 +2,7 @@
 - name: copy file from matser to hosts     
   hosts: all
   become: yes       
-                      
+
   tasks:  
   - name: Install Apache2
     apt:
@@ -21,5 +21,6 @@
      state: started
      enabled: yes
     notify: Restart Apache2
+...    
 
   
