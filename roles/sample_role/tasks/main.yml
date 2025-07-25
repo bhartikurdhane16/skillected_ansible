@@ -1,7 +1,7 @@
 ---
 - name: copy file from matser to hosts     
-   hosts: all
-  become: es       
+  hosts: all
+  become: yes       
 
   tasks:  
   - name: Install Apache2
