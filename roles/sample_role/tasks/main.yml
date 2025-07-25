@@ -3,10 +3,10 @@
   hosts: all
   become: yes       #provide root user permission to local user                    
   tasks:  
- - name: Install Apache2
-  apt:
-    name: apache2
-    state: present
+  - name: Install Apache2
+    apt:
+     name: apache2
+     state: present
     update_cache: yes
 
 - name: Copy index.html to web server
