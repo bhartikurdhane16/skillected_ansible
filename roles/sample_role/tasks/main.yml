@@ -1,6 +1,6 @@
 ---
 - name: copy file from matser to hosts     
-  hosts: all
+   hosts: all
   become: es       
 
   tasks:  
