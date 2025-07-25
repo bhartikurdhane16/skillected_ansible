@@ -7,11 +7,11 @@
     apt:
      name: apache2
      state: present
-    update_cache: yes
+     update_cache: yes
 
-- name: Copy index.html to web server
-  copy:
-    src: index.html
+  - name: Copy index.html to web server
+    copy:
+     src: index.html
     dest: /var/www/html/index.html
 
 - name: Start Apache2 service
