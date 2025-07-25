@@ -1,4 +1,4 @@
-	---
+---
 - name: copy file from matser to hosts     
   hosts: all
   become: yes       
