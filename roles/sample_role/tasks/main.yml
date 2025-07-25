@@ -1,0 +1,19 @@
+---
+- name: copy file from matser to hosts     
+  hosts: all
+  become: yes       
+
+  tasks:  
+  - name: Install Apache2
+    apt:
+     name: apache2
+     state: present
+     update_cache: yes
+
+  - name: Copy index.html to web server
+    copy:
+     src: /root/skillected_ansible/roles/sample_role/files/index.html                 
+     dest: /var/www/html/index.html    
+
+    notify: Restart Apache2
+... 
